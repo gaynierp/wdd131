@@ -1,0 +1,18 @@
+body {
+  justify-items: center;
+  max-width: 60%;
+  border: 1px solid black;
+  margin: auto;
+  padding: 40px;
+}
+img {
+  width: 75px;
+}
+
+.blue {
+  color: rgb(155, 192, 244);
+}
+
+.ital {
+  font-style: italic;
+}
