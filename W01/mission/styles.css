@@ -18,3 +18,9 @@ img {
 .ital {
   font-style: italic;
 }
+
+select {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

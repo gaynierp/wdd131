@@ -15,7 +15,7 @@ console.log(name + " you can concatenate console.log statements");
 
 // Scope = where you can referance a variable by name
 
-if (age == 21) {
+if (age === 21) {
   // a new scope. Possible to referance global and local. Local cannot be accessed at a higher level
   age = 22;
   let book = "Mistborn";
