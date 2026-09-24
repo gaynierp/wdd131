@@ -7,7 +7,7 @@ myFunction(34);
 
 // Event Listeners
 // Retrieve something from DOM
-let select = document.querySelectorAll("#theme-select");
+let select = document.querySelector("#theme-select");
 // register and event listener. Syntax = DOMvariable.addEventListener("event on page", function to call when that event happens)
 select.addEventListener("change", handleEvent); // If you include () after the function name it wants to call it
 function handleEvent(event) {
