@@ -40,7 +40,7 @@ img {
     width: 60%;
     height: 60%;
     grid-template-columns: 1fr 1fr;
-    gap: 0;
+    gap: 10%;
     margin-inline: auto;
   }
   img {
