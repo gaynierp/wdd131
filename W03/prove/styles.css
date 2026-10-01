@@ -7,6 +7,7 @@ header {
 }
 body {
   background-color: gray;
+  margin: 0;
 }
 footer {
   background-color: aqua;
@@ -23,7 +24,6 @@ header,
 body,
 footer {
   text-align: center;
-  justify-content: center;
   align-items: center;
 }
 
@@ -35,10 +35,13 @@ img {
 }
 
 @media screen and (min-width: 700px) {
-  #content {
+  .content {
     display: grid;
+    width: 60%;
+    height: 60%;
     grid-template-columns: 1fr 1fr;
-    gap: 20%;
+    gap: 0;
+    margin-inline: auto;
   }
   img {
     grid-row: inherit;
@@ -46,15 +49,16 @@ img {
 }
 
 @media screen and (min-width: 1000px) {
-  #content {
+  .content {
     display: grid;
-    max-width: 60%;
-    justify-content: center;
-    align-items: center;
+    width: 60%;
+    height: 60%;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 0;
   }
   img {
-    grid-row: inherit;
+    margin-inline: auto;
     width: 200px;
     height: 200px;
   }
