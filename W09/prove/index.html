@@ -18,31 +18,55 @@
     <meta name="twitter:image" content="social-preview-image.png" />
 
     <!-- One favicon (ICO works everywhere) -->
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
 
     <!-- One Apple Touch Icon (iOS home screen) -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Document</title>
   </head>
   <body>
-    <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-      <span aria-hidden="true" class="icon-star">⭐</span>
-      <span aria-hidden="true" class="icon-star">⭐</span>
-      <span aria-hidden="true" class="icon-star">⭐</span>
-      <span aria-hidden="true" class="icon-star">⭐</span>
-      <span aria-hidden="true" class="icon-star-empty">☆</span>
-    </span>
-
+    <div class="recIcon">
+      <img src="images/recipe-book.png" alt="recipe book image" />
+      <h1>Recipe Book</h1>
+    </div>
+    <div class="search">
+      <form>
+        <label for="search">Search</label>
+        <input type="text" />
+        <img
+          src="https://wddbyui.github.io/wdd131/images/recipe1/search.svg"
+          alt="search magnifying glass"
+        />
+      </form>
+    </div>
+    <div class="mainImg">
+      <img src="images/apple-crisp.jpg" alt="Applecrisp" />
+      <div class="recipeInfo">
+        <h2>Apple Crisp</h2>
+        <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+          <span aria-hidden="true" class="icon-star">⭐</span>
+          <span aria-hidden="true" class="icon-star">⭐</span>
+          <span aria-hidden="true" class="icon-star">⭐</span>
+          <span aria-hidden="true" class="icon-star">⭐</span>
+          <span aria-hidden="true" class="icon-star-empty">☆</span>
+        </span>
+        <p>This apple crisp is a simple yet delicious desert</p>
+      </div>
+    </div>
     <div class="social">
       <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
-      <a href="#"
-        ><img src="images/instagram_icon.svg" alt="instagram icon"
-      /></a>
-      <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon" /></a>
-      <a href="#"
-        ><img src="images/pinterest_icon.svg" alt="pinterest icon"
-      /></a>
+      <img
+        src="https://wddbyui.github.io/wdd131/images/recipe1/instagram_icon.svg"
+        alt="instagram icon"
+      /><img
+        src="https://wddbyui.github.io/wdd131/images/recipe1/youtube_icon.svg"
+        alt="youtube icon"
+      /><img
+        src="https://wddbyui.github.io/wdd131/images/recipe1/pinterest_icon.svg"
+        alt="pinterest icon"
+      />
     </div>
 
     <footer>
